@@ -672,6 +672,12 @@ body {
 
 .button-sub {
   display: inline-flex;
+  min-width: 165px;
+  height: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
