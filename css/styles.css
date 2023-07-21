@@ -630,6 +630,7 @@ body {
 
 .form-footer {
   display: flex;
+  gap: 24px;
 }
 
 .subscribe-box {
@@ -656,7 +657,6 @@ body {
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   outline: transparent;
-  margin-right: 24px;
 }
 
 .button-sub {
