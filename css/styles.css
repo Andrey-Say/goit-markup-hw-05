@@ -884,12 +884,15 @@ body {
   background-color: var(--ocean);
 }
 
+.checkbox-container {
+  margin-bottom: 24px;
+}
+
 .checkbox-text {
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--light-slate);
-  margin-bottom: 24px;
 
   font-size: 12px;
   line-height: 1.17;
