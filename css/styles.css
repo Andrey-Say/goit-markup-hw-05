@@ -911,9 +911,6 @@ body {
   text-decoration-line: underline;
   cursor: pointer;
 }
-.checkbox-text span {
-  display: inline-flex;
-}
 
 .check-span {
   display: inline-flex;
