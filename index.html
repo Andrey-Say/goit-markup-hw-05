@@ -74,7 +74,7 @@
       <!-- benefits -->
       <section class="benefits section">
         <div class="container">
-          <h2 class="feature-title">feature</h2>
+          <h2 class="visually-hidden">feature</h2>
           <ul class="benefits-list list">
             <li class="benefits-item">
               <div class="icon-background">
@@ -513,14 +513,20 @@
             ></textarea>
           </div>
 
-          <label class="checkbox-text">
-            <input
-              class="checkbox-input"
-              type="checkbox"
-              name="Privacy Policy"
-            />
+          <input
+            class="checkbox-input visually-hidden"
+            type="checkbox"
+            name="accept-terms"
+            id="accept-terms"
+          />
+          <label class="checkbox-text" for="accept-terms"
+            ><span class="check-span">
+              <svg class="check-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-click"></use>
+              </svg>
+            </span>
             I accept the terms and conditions of the
-            <span class="span-modal">Privacy Policy</span>
+            <a class="link-modal" href="">Privacy Policy</a>
           </label>
 
           <button class="buttom-form" type="submit">Send</button>
