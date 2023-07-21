@@ -732,6 +732,9 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--navyblue);
+  text-align: center;
+  margin-bottom: 16px;
 }
 
 .backdrop.is-hidden .modal {
@@ -784,12 +787,6 @@ body {
   max-width: 360px;
 }
 
-.modal > p {
-  color: var(--navyblue);
-  text-align: center;
-  margin-bottom: 16px;
-}
-
 .label-modal {
   display: block;
   margin-bottom: 8px;
@@ -828,6 +825,10 @@ body {
 }
 
 .label-text {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+
   display: block;
   margin-bottom: 4px;
 }
