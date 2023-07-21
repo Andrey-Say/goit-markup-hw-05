@@ -893,8 +893,6 @@ body {
 }
 
 .checkbox-text {
-  justify-content: center;
-  align-items: center;
   color: var(--light-slate);
 
   font-size: 12px;
